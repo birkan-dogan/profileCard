@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://media.istockphoto.com/photos/product-showcase-with-spotlight-black-studio-room-background-use-as-picture-id1304681590?b=1&k=20&m=1304681590&s=170667a&w=0&h=UlTsdL4KIRPcxbhgOrsIoE0BNNE6KpgxVhRD3gz_fV0=");
+    background-size: cover;
+}
+#üstteki{
+    background-color: lightblue;
+    text-align: center;
+    width: 150px;
+    font-size:10px;
+    margin: auto;
+    margin-top: 50px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#üstteki img{
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+#üstteki ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+    /* background-color: whitesmoke;
+    border-radius: 5px; */
+}
+#üstteki ul li i:hover{
+background-color: lightblue;
+border-radius: 5px;
+}
+#üstteki ul li a{
+    color: aliceblue;
+}
+
+
+#üstteki ul li #linkedin:hover{
+    color: rgba(0,0,255,0.6);
+}
+#üstteki ul li #github:hover{
+    color: black;
+}
+#üstteki ul li #youtube:hover{
+    color: red;
+}
+
+#üstteki #contact{
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 75px;
+    font-size: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: rgba(128,128,128,0.3);
+    cursor: pointer;
+}
+#üstteki #contact a{
+    text-decoration: none;
+    color: black;
+}
+#üstteki #contact a:hover{
+    color: white;
+    transform: translate(0.5s);
+    
+}
+.alttaki{
+    font-size: 10px;
+    background-color: rgba(128,128,128,0.3);
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    border-radius: 8px;
+}
+.alttaki:hover{
+    background-color: black;
+}
+.alttaki ul{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 8px;
+    text-align: center;
+    width: 5px;
+    padding-top: 15px;
+    color: aliceblue;
+}
+.alttaki ul li{
+    padding-left: 5px;
+    padding-right: 15px;
+}

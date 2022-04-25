@@ -7,38 +7,51 @@ body{
     background-image: url("https://media.istockphoto.com/photos/product-showcase-with-spotlight-black-studio-room-background-use-as-picture-id1304681590?b=1&k=20&m=1304681590&s=170667a&w=0&h=UlTsdL4KIRPcxbhgOrsIoE0BNNE6KpgxVhRD3gz_fV0=");
     background-size: cover;
 }
+#üstteki h3{
+    background: linear-gradient(to right top, #4158d0, #c850c0, #ffcc70);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#üstteki p{
+    background: linear-gradient(to right top, #4158d0, #c850c0, #ffcc70);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 #üstteki{
     background-color: lightblue;
     text-align: center;
-    width: 150px;
+    width: 300px;
     font-size:10px;
     margin: auto;
     margin-top: 50px;
-    height: 150px;
+    height: 380px;
     border-radius: 8px;
+    font-size: 30px;
 }
 
 #üstteki img{
-    width: 30px;
-    border: 1px solid gray;
-    border-radius: 25px;
-    margin-top: 30px;
+    width: 78px;
+    border: 3px solid gray;
+    border-radius: 35px;
+    margin-top: 40px;
 }
 #üstteki ul li{
     list-style-type: none;
     display: inline-flex;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
     text-align: center;
-    /* background-color: whitesmoke;
-    border-radius: 5px; */
+    width: 20px;
 }
 #üstteki ul li i:hover{
 background-color: lightblue;
-border-radius: 5px;
+border-radius: 15px;
 }
 #üstteki ul li a{
-    color: aliceblue;
+    color: rgba(128,128,128,1);
 }
 
 
@@ -54,28 +67,32 @@ border-radius: 5px;
 
 #üstteki #contact{
     border: 1px solid black;
-    margin-top: 20px;
-    width: 75px;
-    font-size: 10px;
-    margin-left: 40px;
+    margin-top: 50px;
+    width: 150px;
+    font-size: 30px;
+    margin-left: 80px;
     border-radius: 10px;
     background-color: rgba(128,128,128,0.3);
     cursor: pointer;
+    text-align: center;
 }
 #üstteki #contact a{
     text-decoration: none;
     color: black;
 }
-#üstteki #contact a:hover{
-    color: white;
+#üstteki #contact:hover{
+    background: white;
     transform: translate(0.5s);
-    
+}
+#üstteki #contact a:hover{
+    color: black;
+    transform: translate(1s);
 }
 .alttaki{
-    font-size: 10px;
+    font-size: 50px;
     background-color: rgba(128,128,128,0.3);
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
     margin: auto;
     border-radius: 8px;
 }
@@ -85,7 +102,7 @@ border-radius: 5px;
 .alttaki ul{
     list-style-type: none;
     display: inline-flex;
-    font-size: 8px;
+    font-size: 20px;
     text-align: center;
     width: 5px;
     padding-top: 15px;
@@ -95,3 +112,4 @@ border-radius: 5px;
     padding-left: 5px;
     padding-right: 15px;
 }
+    
